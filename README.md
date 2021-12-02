@@ -1,7 +1,7 @@
 #### shell
 Alternatif shell python
+#### Run And Usage
 ````bash
-Jalankan Printah Berikut Di Termux
 $ pkg install gdb git python2
 $ git clone https://github.com/kapten-kaizo/shell
 $ cd shell

@@ -5,5 +5,5 @@ Alternatif shell python
 $ pkg install gdb
 $ git clone https://github.com/kapten-kaizo/shell
 $ cd shell
-$ python run.py
+$ python setup.py
 ````

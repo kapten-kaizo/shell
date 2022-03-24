@@ -1,5 +1,5 @@
 #### shell
-visit: [https://github.com/lmacken/pyrasite](https://github.com/lmacken/pyrasite) for more information
+visit [https://github.com/lmacken/pyrasite](https://github.com/lmacken/pyrasite) for more information
 #### Installation
 ````bash
 $ apt install gdb

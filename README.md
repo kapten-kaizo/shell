@@ -1,9 +1,9 @@
 #### shell
-Alternatif shell python
-#### Run And Usage
+visit: [pyrasite](https://github.com/lmacken/pyrasite) for more information
+#### Installation
 ````bash
-$ pkg install gdb
+$ apt install gdb
 $ git clone https://github.com/kapten-kaizo/shell
 $ cd shell
-$ python setup.py
+$ python3 setup.py
 ````

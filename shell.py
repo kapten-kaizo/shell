@@ -190,17 +190,10 @@ def PyrasiteStart(x=None):
     ipc = PyrasiteIPC(int(sys.argv[1]), 'ReversePythonShell')
     ipc.connect()
 
-    #print("Pyrasite Shell %s" % __version__)
-    #print("Connected to '%s'" % ipc.title)
-    hi = "\033[1;92m"
-    pu = "\033[1;00m"
-    ung = "\033[1;95m"
-    link = "https://github.com/lmacken/pyrasite"
-    print("\n%sPyrasite Shell %s%s%s ( Connected to %s'%s'%s)" % (pu, hi, __version__, pu, hi, ipc.title, pu))
-    print("You are using python version %s%s%s, See %s%s%s for more information." % (hi, pyvers, pu, hi, link, pu))
-    print("( %sModify by KangEhem%s )\n" % (ung, pu))
+    print("Pyrasite Shell %s" % __version__)
+    print("Connected to '%s'" % ipc.title)
     prompt, payload = ipc.recv().split('\n', 1)
-    #print(payload)
+    print(payload)
 
     try:
         import readline
